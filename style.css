@@ -1,0 +1,35 @@
+* {
+    background-color: #2c83be;
+    color: ;
+}
+
+.cell {
+    width: 75px;
+    height : 75px;
+    border : 2px solid;
+    box-shadow: 0px 0px 0px 0px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#gameContainer {
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+#restartBtn {
+    font-family: "Comic Sans MS";
+    width: 86px;
+    height: 28px;
+    border-radius: 4px;
+    color: #ced2d3;
+    background-blend-mode: hard-light;
+    background-color: #264f78;
+}
